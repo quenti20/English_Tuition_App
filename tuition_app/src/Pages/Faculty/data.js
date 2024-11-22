@@ -14,7 +14,7 @@ export const FacultyData = [
     {
       "name": "Mehuli Das",
       "designation": "Overseas Teacher",
-      "qualification": "M.A. (St. Stephens), PhD (University of Liverpool)",
+      "qualification": "M.A. (St. Stephens College),M.A.(University of Liverpool), PhD(University of Leads)",
       "photo": "./Mehuli.jpg"
     },
     {

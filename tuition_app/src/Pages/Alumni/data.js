@@ -4,17 +4,8 @@ const studentData = [
       school: "G D Birla",
       year: 2023,
       marks_obtained: 100,
-      exam: "Madhyamik",
+      exam: "ICSE",
       photo: "./anwesha.jpg",
-    },
-    // 8 more empty student objects with the same fields
-    {
-      name: "Anushka Ghosh",
-      school: "Well and GoldSmith",
-      year: "2023",
-      marks_obtained: "98",
-      exam: "Madhyamik",
-      photo: "./anushka.jpg",
     },
     {
       name: "Shrinjoy Bhattachariya",
