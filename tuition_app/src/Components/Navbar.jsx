@@ -37,9 +37,11 @@ const Navbar = () => {
     <div className='bg-[#09152E] fixed top-0 left-0 w-full z-50 p-4 rounded'>
       <div className='max-w-[1240px] bg-[#09152E] flex justify-between items-center mx-auto text-white'>
         {/* Always visible Logo and Name */}
-        <div className='flex items-center'>
+        <div className='flex items-center flex-wrap text-center md:text-left '>
           <img src={Logo} alt="Logo" className='w-12 h-12 mr-2' />
-          <h1 className='text-3xl font-bold text-[#f3f6f5]'>The Linguist</h1>
+          <h1 className='text-3xl font-bold text-[#f3f6f5] pr-1'>The Linguist </h1>
+          <p className='text-lg text-[#f3f6f5] '> 
+            (formerly <span className='font-bold'>The English Coaching</span> )</p>
         </div>
 
         {/* Desktop Navigation */}

@@ -13,9 +13,9 @@ const Experts = () => {
       <div className="col-span-1 flex flex-col justify-center">
         <h1 className="text-[#09152E] font-bold my-2 text-justify md:text-3xl">About Us</h1>
 
-        {/* About Us Text with Rounded Top Corners */}
+        {/* Updated About Us Text with Rounded Top Corners */}
         <p className="text-white md:text-lg p-4 leading-relaxed bg-[#09152E] pl-4 rounded-t-lg">
-          At <span className="font-semibold">The Linguist</span>, we celebrate learning an assortment of Indian and foreign languages. This two-decade-old institution has been a pioneer in teaching English Language across all age groups. We also provide professional guidance on Pure Science subjects up to class XII. We are pledged to:
+          At <span className="font-semibold">The Linguist</span>, we celebrate learning an assortment of Indian and foreign languages. This two-decade-old institution has been a pioneer in teaching the English language across all age groups. We also provide professional guidance on Pure Science subjects up to class XII. We are pledged to:
         </p>
 
         {/* Key Points with Rounded Bottom Corners and Custom Styles */}
@@ -38,7 +38,7 @@ const Experts = () => {
           </li>
           <li className="flex items-center space-x-3">
             <span className="w-3 h-3 bg-white rounded-full"></span>
-            <span className="text-white">Provide support classes for the weak students.</span>
+            <span className="text-white">Provide support classes for the underachievers.</span>
           </li>
         </ul>
       </div>

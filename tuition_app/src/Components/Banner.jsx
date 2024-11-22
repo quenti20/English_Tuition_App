@@ -3,7 +3,7 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
 import { useNavigate} from 'react-router-dom';
-
+import bannerImage from '../Pages/Publications/pub_1.jpg'
 
 const Banner = () => {
 
@@ -16,10 +16,14 @@ const Banner = () => {
 
   return (
     // https://t.ly/phRGB
-    <div className="bg-[url('https://t.ly/phRGB')] bg-center opacity w-full py-20">
-        <div className='max-w-7xl my-24 mx-auto  text-center font-bold '>
+    <div className="bg-center opacity w-full py-20 bg-no-repeat bg-cover " 
+    style={{backgroundImage: `url(${bannerImage})`,
+  }}>
+     {/*Overlay to darken background */}
+     <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className='max-w-7xl my-24 mx-auto  text-center font-bold '> 
         <div className='text-white  text-xl md:text-3xl md:p-6 '>
-            We Dont Teach You
+            We Don't Teach You
         </div>
         <h2 className='text-white blur-none text-2xl md:text-7xl md:p-6'>
           We Help You Learn 
