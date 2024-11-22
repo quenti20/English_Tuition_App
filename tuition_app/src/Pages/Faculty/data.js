@@ -19,9 +19,14 @@ export const FacultyData = [
     },
     {
       "name": "Dipanwita Guha",
-      "designation": "Senior Teacher",
+      "designation": "Administrator",
       "qualification": "M.A. (IGNOU)",
       "photo": "./Dipanwita.jpg"
+    },
+    {
+      "name": "Rajarshi Das",
+      "designation": "sub-Administrator",
+      "photo": "./Rajarshi.jpg"
     },
     {
       "name": "Moubani Sarkar",

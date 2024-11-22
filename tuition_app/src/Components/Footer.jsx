@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'; // Import icons
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaFacebook } from 'react-icons/fa'; // Import Facebook icon
 
 const Footer = () => {
   return (
@@ -9,8 +9,9 @@ const Footer = () => {
         {/* Location Column */}
         <div className="space-y-4 flex flex-col justify-start items-start">
           <h3 className="text-xl font-bold">Location</h3>
-          <p>D/33 Baghajatin,
-            Opposite Baghajatin Ram Thakur Ashram
+          <p>
+            D/33 Baghajatin, <br />
+            Opposite Baghajatin Ram Thakur Ashram <br />
             Kolkata 700033
           </p>
           <a 
@@ -49,6 +50,16 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-blue-400" /> 
               <span>Contact Number 2: 8017916452</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaFacebook className="text-blue-400" /> 
+              <a 
+                href="https://www.facebook.com/groups/englishcoachingpkd/?ref=share&mibextid=KtfwRi" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-blue-500">
+                Visit our Facebook Page
+              </a>
             </li>
           </ul>
         </div>

@@ -24,7 +24,7 @@ const Faculty = () => {
               />
               
               {/* Displaying the Name */}
-              <h3 className="text-xl font-semibold text-white">{faculty.name}</h3>
+              <h3 className="text-xl font-bold text-white">{faculty.name}</h3>
               
               {/* Displaying the Designation */}
               <p className="text-md font-medium text-white">{faculty.designation}</p>

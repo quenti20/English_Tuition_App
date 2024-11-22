@@ -22,7 +22,7 @@ const Alumni = () => {
                 className="w-full h-48 object-contain rounded-t-lg mb-4" 
               />
               <div className="text-center">
-                <h2 className="text-xl font-medium">{student.name || 'N/A'}</h2>
+                <h2 className="text-xl font-bold text-white ">{student.name || 'N/A'}</h2>
                 <p className="text-white">{student.school || 'N/A'}</p>
                 <p className="text-white">{student.year || 'N/A'} Batch</p>
                 <p className="text-white">Marks Obtained: {student.marks_obtained || 'N/A'}</p>
