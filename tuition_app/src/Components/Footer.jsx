@@ -1,8 +1,17 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaFacebook } from 'react-icons/fa'; // Import Facebook icon
-
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Footer = () => {
+
+  const navigate = useNavigate();
+
+  const handlePrivacyPolicyClick = () =>{
+    navigate('/privacy_policy')
+  };
+
   return (
+
     <div className="w-full h-auto md:h-[350px] bg-[#09152E] border-t border-gray-600 p-6 text-white">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
@@ -68,7 +77,11 @@ const Footer = () => {
         <div className="space-y-4 flex flex-col justify-start items-start">
           <h3 className="text-xl font-bold">Legal</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-400">Privacy Policy</a></li>
+            <li><Link 
+                to="/privacy_policy" 
+                className="hover:text-blue-400">
+                Privacy Policy
+              </Link> </li>
             <li><a href="#" className="hover:text-blue-400">Legal Regulations</a></li>
           </ul>
         </div>

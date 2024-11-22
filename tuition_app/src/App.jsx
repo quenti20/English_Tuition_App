@@ -16,7 +16,7 @@ import Alumni from './Pages/Alumni/Alumni';
 import WBSE from './Pages/WBSE/WBSE';
 import CBSE from './Pages/CBSE/CBSE';
 import CISCE from './Pages/CISCE/CISCE';
-
+import Privacy_Policy from './Pages/Privacy_Policy_regulations/Privacy_Policy'
 function App() {
   return (
     <Router>
@@ -63,6 +63,7 @@ function App() {
           <Route path="/wbse" element={<WBSE/> }  />
           <Route path="/cbse" element={<CBSE/> }  />
           <Route path="/cisce" element={<CISCE/> }  />
+          <Route path="/privacy_policy" element={<Privacy_Policy/>}  />
           
         </Routes>
       </div>
